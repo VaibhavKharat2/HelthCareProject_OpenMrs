@@ -1,0 +1,6 @@
+OpenMrsBase\OpenMrs_BaseClass.class
+OpenMrsPom\OpenMrs4_PetientDetailsPage.class
+OpenMrsPom\OpenMrs1_LoginPage.class
+OpenMrsPom\OpenMrs2_HomePage.class
+OpenMrsPom\OpenMrs3_RegisterPetientPage.class
+OpenMrsPom\OpenMrs5_AdminRegistrationDeskPage.class

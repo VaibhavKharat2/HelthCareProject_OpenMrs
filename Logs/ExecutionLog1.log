@@ -1,0 +1,27 @@
+2024-08-22 20:13:40,117 [main] INFO OpenMrsTest - Opening the Browser
+2024-08-22 20:13:41,967 [main] INFO OpenMrsTest - Entering the valid UserId & Password
+2024-08-22 20:13:42,090 [main] INFO OpenMrsTest - Selecting the location
+2024-08-22 20:13:45,849 [main] INFO OpenMrsTest - Clicking on the Login Button
+2024-08-22 20:13:59,364 [main] INFO OpenMrsTest - Clicking on the Register Petient Button
+2024-08-22 20:14:01,862 [main] INFO OpenMrsTest - Entering the valid petient details
+2024-08-22 20:14:01,972 [main] INFO OpenMrsTest - Clicking on the Confirm Button
+2024-08-22 20:14:19,784 [main] INFO OpenMrsTest - Getting petient details
+2024-08-22 20:14:22,849 [main] INFO OpenMrsTest - Clicking on the HomePage Button
+2024-08-22 20:14:27,662 [main] INFO OpenMrsTest - Clicking on the FindRecord Button
+2024-08-22 20:14:28,789 [main] INFO OpenMrsTest - Validating Petient name
+2024-08-22 20:14:28,913 [main] INFO OpenMrsTest - Validating actual register records
+2024-08-22 20:14:30,452 [main] INFO OpenMrsTest - Closing the browser
+2024-08-22 21:40:10,905 [main] INFO OpenMrsTest - Opening the Browser
+2024-08-22 21:40:13,826 [main] WARN OpenMrsTest - Entering the valid UserId & Password
+2024-08-22 21:40:13,873 [main] INFO OpenMrsTest - Selecting the location
+2024-08-22 21:40:18,790 [main] INFO OpenMrsTest - Clicking on the Login Button
+2024-08-22 21:41:11,225 [main] INFO OpenMrsTest - Clicking on the Register Petient Button
+2024-08-22 21:41:13,411 [main] WARN OpenMrsTest - Entering the valid petient details
+2024-08-22 21:41:13,477 [main] INFO OpenMrsTest - Clicking on the Confirm Button
+2024-08-22 21:41:57,781 [main] INFO OpenMrsTest - Getting petient details
+2024-08-22 21:41:58,958 [main] INFO OpenMrsTest - Clicking on the HomePage Button
+2024-08-22 21:42:02,595 [main] INFO OpenMrsTest - Clicking on the FindRecord Button
+2024-08-22 21:42:02,851 [main] WARN OpenMrsTest - validate petient name in registerList
+2024-08-22 21:42:02,890 [main] INFO OpenMrsTest - Validating Petient name
+2024-08-22 21:42:02,914 [main] WARN OpenMrsTest - validate petient records only in registerList
+2024-08-22 21:42:05,080 [main] INFO OpenMrsTest - Closing the browser

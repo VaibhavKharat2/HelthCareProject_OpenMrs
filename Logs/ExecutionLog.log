@@ -1,0 +1,27 @@
+2024-08-22 20:13:40,117 - OpenMrsTest -INFO - Opening the Browser
+2024-08-22 20:13:41,967 - OpenMrsTest -INFO - Entering the valid UserId & Password
+2024-08-22 20:13:42,090 - OpenMrsTest -INFO - Selecting the location
+2024-08-22 20:13:45,849 - OpenMrsTest -INFO - Clicking on the Login Button
+2024-08-22 20:13:59,364 - OpenMrsTest -INFO - Clicking on the Register Petient Button
+2024-08-22 20:14:01,862 - OpenMrsTest -INFO - Entering the valid petient details
+2024-08-22 20:14:01,972 - OpenMrsTest -INFO - Clicking on the Confirm Button
+2024-08-22 20:14:19,784 - OpenMrsTest -INFO - Getting petient details
+2024-08-22 20:14:22,849 - OpenMrsTest -INFO - Clicking on the HomePage Button
+2024-08-22 20:14:27,662 - OpenMrsTest -INFO - Clicking on the FindRecord Button
+2024-08-22 20:14:28,789 - OpenMrsTest -INFO - Validating Petient name
+2024-08-22 20:14:28,913 - OpenMrsTest -INFO - Validating actual register records
+2024-08-22 20:14:30,452 - OpenMrsTest -INFO - Closing the browser
+2024-08-22 21:40:10,905 - OpenMrsTest -INFO - Opening the Browser
+2024-08-22 21:40:13,826 - OpenMrsTest -WARN - Entering the valid UserId & Password
+2024-08-22 21:40:13,873 - OpenMrsTest -INFO - Selecting the location
+2024-08-22 21:40:18,790 - OpenMrsTest -INFO - Clicking on the Login Button
+2024-08-22 21:41:11,225 - OpenMrsTest -INFO - Clicking on the Register Petient Button
+2024-08-22 21:41:13,411 - OpenMrsTest -WARN - Entering the valid petient details
+2024-08-22 21:41:13,477 - OpenMrsTest -INFO - Clicking on the Confirm Button
+2024-08-22 21:41:57,781 - OpenMrsTest -INFO - Getting petient details
+2024-08-22 21:41:58,958 - OpenMrsTest -INFO - Clicking on the HomePage Button
+2024-08-22 21:42:02,595 - OpenMrsTest -INFO - Clicking on the FindRecord Button
+2024-08-22 21:42:02,851 - OpenMrsTest -WARN - validate petient name in registerList
+2024-08-22 21:42:02,890 - OpenMrsTest -INFO - Validating Petient name
+2024-08-22 21:42:02,914 - OpenMrsTest -WARN - validate petient records only in registerList
+2024-08-22 21:42:05,080 - OpenMrsTest -INFO - Closing the browser

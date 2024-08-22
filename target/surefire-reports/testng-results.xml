@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[OPM_TC_1_ValidatePetientName Execution start]]>
+    </line>
+    <line>
+      <![CDATA[OPM_TC_2_ValidateRegisterRecord Execution start]]>
+    </line>
+    <line>
+      <![CDATA[OPM_TC_2_ValidateRegisterRecord Execution failed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-22T21:39:07 IST" name="Suite" finished-at="2024-08-22T21:42:05 IST" duration-ms="177800">
+    <groups>
+    </groups>
+    <test started-at="2024-08-22T21:39:07 IST" name="Test" finished-at="2024-08-22T21:42:05 IST" duration-ms="177800">
+      <class name="OpenMrsTest.OpenMrsTestCase">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@34a3d150]" started-at="2024-08-22T21:39:07 IST" name="lounchBrowser" finished-at="2024-08-22T21:40:12 IST" duration-ms="64851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@34a3d150]" started-at="2024-08-22T21:40:12 IST" name="preConditions" finished-at="2024-08-22T21:42:02 IST" duration-ms="110477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="OPM_TC_1_ValidatePetientName()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@34a3d150]" started-at="2024-08-22T21:42:02 IST" name="OPM_TC_1_ValidatePetientName" finished-at="2024-08-22T21:42:02 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OPM_TC_1_ValidatePetientName Execution start]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OPM_TC_1_ValidatePetientName -->
+        <test-method signature="OPM_TC_2_ValidateRegisterRecord()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@34a3d150]" started-at="2024-08-22T21:42:02 IST" name="OPM_TC_2_ValidateRegisterRecord" finished-at="2024-08-22T21:42:02 IST" duration-ms="93" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[records not matching expected [Showing 1 to 11 of 11 entries] but found [Showing 1 to 1 of 1 entries]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: records not matching expected [Showing 1 to 11 of 11 entries] but found [Showing 1 to 1 of 1 entries]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at OpenMrsTest.OpenMrsTestCase.OPM_TC_2_ValidateRegisterRecord(OpenMrsTestCase.java:112)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[OPM_TC_2_ValidateRegisterRecord Execution start]]>
+            </line>
+            <line>
+              <![CDATA[OPM_TC_2_ValidateRegisterRecord Execution failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OPM_TC_2_ValidateRegisterRecord -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@34a3d150]" started-at="2024-08-22T21:42:03 IST" name="closeBrowser" finished-at="2024-08-22T21:42:05 IST" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- OpenMrsTest.OpenMrsTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

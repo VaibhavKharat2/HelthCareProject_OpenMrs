@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[OPM_TC_1_ValidatePetientName Execution start]]>
+    </line>
+    <line>
+      <![CDATA[OPM_TC_2_ValidateRegisterRecord Execution start]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-22T20:13:08 IST" name="Default suite" finished-at="2024-08-22T20:14:30 IST" duration-ms="81941">
+    <groups>
+    </groups>
+    <test started-at="2024-08-22T20:13:08 IST" name="Default test" finished-at="2024-08-22T20:14:30 IST" duration-ms="81941">
+      <class name="OpenMrsTest.OpenMrsTestCase">
+        <test-method is-config="true" signature="lounchBrowser()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@5dda768f]" started-at="2024-08-22T20:13:08 IST" name="lounchBrowser" finished-at="2024-08-22T20:13:41 IST" duration-ms="32834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lounchBrowser -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@5dda768f]" started-at="2024-08-22T20:13:41 IST" name="preConditions" finished-at="2024-08-22T20:14:27 IST" duration-ms="46231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="OPM_TC_1_ValidatePetientName()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@5dda768f]" started-at="2024-08-22T20:14:27 IST" name="OPM_TC_1_ValidatePetientName" finished-at="2024-08-22T20:14:28 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OPM_TC_1_ValidatePetientName Execution start]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OPM_TC_1_ValidatePetientName -->
+        <test-method signature="OPM_TC_2_ValidateRegisterRecord()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@5dda768f]" started-at="2024-08-22T20:14:28 IST" name="OPM_TC_2_ValidateRegisterRecord" finished-at="2024-08-22T20:14:28 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OPM_TC_2_ValidateRegisterRecord Execution start]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OPM_TC_2_ValidateRegisterRecord -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OpenMrsTest.OpenMrsTestCase@5dda768f]" started-at="2024-08-22T20:14:28 IST" name="closeBrowser" finished-at="2024-08-22T20:14:30 IST" duration-ms="1555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- OpenMrsTest.OpenMrsTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
